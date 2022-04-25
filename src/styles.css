@@ -1,7 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
   }
-.app-wrapper {
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 25px 35px 25px 35px;
+}
+  .app-wrapper {
     max-width: 900px;
     margin: 20px auto;
     padding: 25px 35px 25px 35px;
@@ -51,7 +56,4 @@ body {
     position: relative;
     display: block;
     margin: 0 auto;
-  }
-  .footer {
-    margin: 20 auot;
   }

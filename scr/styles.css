@@ -1,0 +1,55 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  .app-wrapper {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px 35px 25px 35px;
+    background: linear-gradient(
+      67.6deg,
+      rgb(225, 242, 254) -2.8%,
+      rgb(193, 224, 250) 44.6%,
+      rgb(19, 116, 197) 102.4%
+    );
+    border: 10px ridge;
+    border-radius: 10px;
+    border-color: #579eda;
+  }
+  .searchButton {
+    color: azure;
+    background-color: navy;
+  }
+  .currentButton {
+    color: azure;
+    background-color: navy;
+  }
+  .city {
+    font-size: larger;
+    font-weight: bold;
+  }
+  .currentTemp {
+    position: relative;
+    font-size: 50px;
+    color: navy;
+  }
+  .units {
+    position: relative;
+    top: -65px;
+    left: 130px;
+  }
+  
+  .five-day {
+    font-size: large;
+    font-weight: bold;
+  }
+  .day-forecast {
+    font-size: large;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .rain {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  
